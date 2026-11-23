@@ -1,0 +1,19 @@
+# Track project source; install third-party dependencies separately.
+/plugins/*
+!/plugins/ms-core/
+!/plugins/ms-secret/
+!/plugins/sm-reference-finish/
+/themes/
+/languages/
+/uploads/
+/upgrade/
+/rd/
+.DS_Store
+*.log
+*.sql
+*.sql.gz
+*.zip
+.env
+.env.*
+wp-config.php
+*backup*
